@@ -53,3 +53,8 @@ tr:nth-child(even) {
     font-size: 16px;
     margin: 10px;
 }
+
+.card-footer {
+    text-align: center;
+    color: beige;
+}
