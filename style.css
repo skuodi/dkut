@@ -1,0 +1,55 @@
+#First {
+    font-family: 'Sriracha', cursive;
+    color: crimson;
+}
+
+.body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-image: url(dark.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: fit-content;
+}
+
+td {
+    display: flex;
+    text-align: center;
+}
+
+th {
+    /* border: 1px solid #dddddd; */
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        background-color: lightblue;
+    }
+}
+
+.btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flexbox;
+    font-size: 16px;
+    margin: 10px;
+}
